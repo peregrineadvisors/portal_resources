@@ -1,0 +1,417 @@
+{
+    "description": "JSON database of US Government CDOs",
+    "data": [
+    {
+        "agency": {
+            "name": "Department of Agriculture",
+            "abbrv": "NASA",
+            "website": "https://www.usda.gov/",
+            "ocdo": "https://www.usda.gov/topics/data",
+            "data": "https://www.usda.gov/content/usda-open-data-catalog",
+            "image": "https://www.usda.gov/themes/usda/img/usda-symbol.svg"
+        },
+        "name": {
+            "first": "Ted",
+            "last": "Kaouk"
+        },
+        "contact": {
+            "email": "ted.kaouk@usda.gov",
+            "linkedIn": "https://www.linkedin.com/in/ted-kaouk-phd-pmp-930ab044/"
+        }
+    },{
+        "agency": {
+            "name": "Department of Commerce",
+            "abbrv": "DOC",
+            "website": "https://www.commerce.gov/",
+            "ocdo": "https://www.commerce.gov/data-and-reports/data",
+            "data": "https://data.commerce.gov/",
+            "image": "https://www.commerce.gov/themes/commerce/assets/img/doc_logo.png"
+        },
+        "name": {
+            "first": "",
+            "last": ""
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Department of Defense",
+            "abbrv": "DOD",
+            "website": "https://www.defense.gov/",
+            "ocdo": "https://data.defense.gov/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/United_States_Department_of_Defense_Seal.svg/1920px-United_States_Department_of_Defense_Seal.svg.png"
+        },
+        "name": {
+            "first": "Dave",
+            "last": "Spirk"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/david-spirk-a21a37126/"
+        }
+    },{
+        "agency": {
+            "name": "Department of Education",
+            "abbrv": "ED",
+            "website": "http://www.ed.gov/",
+            "ocdo": "https://data.ed.gov/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Seal_of_the_United_States_Department_of_Education.svg/1920px-Seal_of_the_United_States_Department_of_Education.svg.png"
+        },
+        "name": {
+            "first": "Greg",
+            "last": "Fortelny"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/fortelny/"
+        }
+    },{
+        "agency": {
+            "name": "Department of Energy",
+            "abbrv": "DOE",
+            "website": "https://www.energy.gov/",
+            "ocdo": "https://www.energy.gov/data/open-energy-data",
+            "data": "https://www.energy.gov/data/downloads/open-data-catalogue",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Seal_of_the_United_States_Department_of_Energy.svg/1920px-Seal_of_the_United_States_Department_of_Energy.svg.png"
+        },
+        "name": {
+            "first": "Pamela",
+            "last": "Isom"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/pamelaisom/"
+        }
+    },{
+        "agency": {
+            "name": "Department of Health and Human Services",
+            "abbrv": "HHS",
+            "website": "https://www.hhs.gov/",
+            "ocdo": "",
+            "data": "https://healthdata.gov/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Seal_of_the_United_States_Department_of_Health_and_Human_Services.svg/1920px-Seal_of_the_United_States_Department_of_Health_and_Human_Services.svg.png"
+        },
+        "name": {
+            "first": "",
+            "last": ""
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Department of Homeland Security",
+            "abbrv": "DHS",
+            "website": "https://www.dhs.gov",
+            "ocdo": "https://www.dhs.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Seal_of_the_United_States_Department_of_Homeland_Security.svg/1920px-Seal_of_the_United_States_Department_of_Homeland_Security.svg.png"
+        },
+        "name": {
+            "first": "Brain",
+            "last": "Teeple"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/brian-teeple-4059a11a6/"
+        }
+    },{
+        "agency": {
+            "name": "Department of Housing and Urban Development",
+            "abbrv": "HUD",
+            "website": "https://www.hud.gov/",
+            "ocdo": "https://data.hud.gov/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Seal_of_the_United_States_Department_of_Housing_and_Urban_Development.svg/1920px-Seal_of_the_United_States_Department_of_Housing_and_Urban_Development.svg.png"
+        },
+        "name": {
+            "first": "Jill",
+            "last": "Janecek"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/jilljanecek/"
+        },
+        "acting": "True"
+    },{
+        "agency": {
+            "name": "Department of Interior",
+            "abbrv": "DOI",
+            "website": "http://www.doi.gov/",
+            "ocdo": "https://www.doi.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Seal_of_the_United_States_Department_of_the_Interior.svg/1920px-Seal_of_the_United_States_Department_of_the_Interior.svg.png"
+        },
+        "name": {
+            "first": "Thomas",
+            "last": "Dabolt"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/thomas-dabolt-3578486/"
+        }
+    },{
+        "agency": {
+            "name": "Department of Justice",
+            "abbrv": "DOJ",
+            "website": "https://www.justice.gov",
+            "ocdo": "https://www.justice.gov/open/open-data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Seal_of_the_United_States_Department_of_Justice.svg/480px-Seal_of_the_United_States_Department_of_Justice.svg.png"
+        },
+        "name": {
+            "first": "Melinda",
+            "last": "Rogers"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/melindarogers/"
+        },
+        "acting": "True"
+    },{
+        "agency": {
+            "name": "Department of Labor",
+            "abbrv": "DOL",
+            "website": "http://www.dol.gov/",
+            "ocdo": "https://www.dol.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Seal_of_the_United_States_Department_of_Labor.svg/1280px-Seal_of_the_United_States_Department_of_Labor.svg.png"
+        },
+        "name": {
+            "first": "Scott",
+            "last": "Gibbons"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Department of State",
+            "abbrv": "DOS",
+            "website": "http://www.state.gov/",
+            "ocdo": "https://www.state.gov/developer/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/U.S._Department_of_State_official_seal.svg/1280px-U.S._Department_of_State_official_seal.svg.png"
+        },
+        "name": {
+            "first": "Janice",
+            "last": "deGarmo"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/janice-degarmo-91844336/"
+        },
+        "acting": "True"
+    },{
+        "agency": {
+            "name": "Department of Transportation",
+            "abbrv": "DOT",
+            "website": "http://www.dot.gov/",
+            "ocdo": "https://www.transportation.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Seal_of_the_United_States_Department_of_Transportation.svg/1280px-Seal_of_the_United_States_Department_of_Transportation.svg.png"
+        },
+        "name": {
+            "first": "Dan",
+            "last": "Morgan"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/daniel-morgan-8a324b4"
+        }
+    },{
+        "agency": {
+            "name": "Department of Treasury",
+            "abbrv": "",
+            "website": "http://www.treasury.gov/Pages/default.aspx",
+            "ocdo": "https://home.treasury.gov/data/treasury-open-data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Seal_of_the_United_States_Department_of_the_Treasury.svg/1280px-Seal_of_the_United_States_Department_of_the_Treasury.svg.png"
+        },
+        "name": {
+            "first": "Jamal",
+            "last": "El-Hindi"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/jamal-el-hindi-9b40889"
+        }
+    },{
+        "agency": {
+            "name": "Department of Veterans Affairs",
+            "abbrv": "VA",
+            "website": "https://www.va.gov/",
+            "ocdo": "https://www.data.va.gov/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg/1280px-Seal_of_the_U.S._Department_of_Veterans_Affairs.svg.png"
+        },
+        "name": {
+            "first": "Kshemendra",
+            "last": "Paul"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/kshemendrapaul/"
+        }
+    },{
+        "agency": {
+            "name": "Environmental Protection Agency",
+            "abbrv": "EPA",
+            "website": "https://www.epa.gov",
+            "ocdo": "https://www.epa.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Seal_of_the_United_States_Environmental_Protection_Agency.svg/1280px-Seal_of_the_United_States_Environmental_Protection_Agency.svg.png"
+        },
+        "name": {
+            "first": "Richard",
+            "last": "Allen"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/richard-allen-67a4277/"
+        }
+    },{
+        "agency": {
+            "name": "National Aeronautics and Space Administration",
+            "abbrv": "NASA",
+            "website": "https://www.nasa.gov/",
+            "ocdo": "https://nasa.github.io/data-nasa-gov-frontpage/",
+            "data": "",
+            "image": ""
+        },
+        "name": {
+            "first": "Ron",
+            "last": "Thompson"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/ronthompson2"
+        }
+    },{
+        "agency": {
+            "name": "Agency for International Development",
+            "abbrv": "USAID",
+            "website": "http://www.usaid.gov/",
+            "ocdo": "https://data.usaid.gov/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/USAID-Identity.svg/2880px-USAID-Identity.svg.png"
+        },
+        "name": {
+            "first": "Brandon",
+            "last": "Pustejovsky"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/brandon-pustejovsky-a2b2b55"
+        }
+    },{
+        "agency": {
+            "name": "Federal Emergency Management Agency",
+            "abbrv": "FEMA",
+            "website": "http://www.fema.gov/",
+            "ocdo": "https://www.fema.gov/about/reports-and-data/openfema",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/FEMA_logo.svg/2880px-FEMA_logo.svg.png"
+        },
+        "name": {
+            "first": "Kathleen",
+            "last": "Kaplan"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/k-m-kaplan"
+        }
+    },{
+        "agency": {
+            "name": "General Services Administration",
+            "abbrv": "GSA",
+            "website": "http://www.gsa.gov/",
+            "ocdo": "https://www.gsa.gov/governmentwide-initiatives/open-data-at-gsa",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Seal_of_the_General_Services_Administration.svg/1280px-Seal_of_the_General_Services_Administration.svg.png"
+        },
+        "name": {
+            "first": "Beth",
+            "last": "Killoran"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/beth-anne-killoran-6398a350"
+        },
+        "acting": "True"
+    },{
+        "agency": {
+            "name": "National Science Foundation",
+            "abbrv": "NSF",
+            "website": "https://www.nsf.gov/",
+            "ocdo": "https://www.nsf.gov/data/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/NSF_logo.png/1280px-NSF_logo.png"
+        },
+        "name": {
+            "first": "Dorothy",
+            "last": "Aronson"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/dorothy-aronson-6b60a512b"
+        }
+    },{
+        "agency": {
+            "name": "Nuclear Regulatory Commission",
+            "abbrv": "NRC",
+            "website": "http://www.nrc.gov/",
+            "ocdo": "https://www.nrc.gov/data/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Seal_of_the_United_States_Nuclear_Regulatory_Commission.png"
+        },
+        "name": {
+            "first": "David",
+            "last": "Nelson"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/david-nelson-33854535"
+        }
+    },{
+        "agency": {
+            "name": "Office of Personnel Management",
+            "abbrv": "OPM",
+            "website": "https://www.opm.gov",
+            "ocdo": "https://www.opm.gov/data/index.aspx",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Seal_of_the_United_States_Office_of_Personnel_Management.svg/1920px-Seal_of_the_United_States_Office_of_Personnel_Management.svg.png"
+        },
+        "name": {
+            "first": "Kathleen",
+            "last": "McGettigan"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/kathleen-mcgettigan-185b9714"
+        }
+    },{
+        "agency": {
+            "name": "Small Business Administration",
+            "abbrv": "SBA",
+            "website": "https://www.sba.gov/",
+            "ocdo": "https://www.sba.gov/about-sba/open-government/digital-sba",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Seal_of_the_United_States_Small_Business_Administration.svg/1920px-Seal_of_the_United_States_Small_Business_Administration.svg.png"
+        },
+        "name": {
+            "first": "Emily",
+            "last": "Knickerbocker"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/emily-knickerbocker-55a02949"
+        }
+    }]
+}
