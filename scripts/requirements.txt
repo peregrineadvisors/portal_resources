@@ -1,0 +1,8 @@
+# This file can be used to install the libraries that are need to use the
+# peregrineportal library and the automation scripts
+#
+# To install the requirements listed in this file, use the following command:
+#    pip install -r requirements.txt
+
+# Python Modules
+requests >= 2.24

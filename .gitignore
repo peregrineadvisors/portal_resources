@@ -6,3 +6,4 @@
 
 # Dont store the compiled results
 backend/dist/**
+**/__pycache__
