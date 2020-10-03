@@ -1,0 +1,37 @@
+{
+    "modified_date": "2020-10-02T15:02:26.260594Z",
+    "description": "Recent data.gov dataset updates",
+    "data": [
+        {
+            "metadata_modified": "2020-10-02T01:42:48.092637",
+            "organization": "usaid-gov",
+            "name": "midterm-performance-evaluation-of-the-workforce-improvement-and-skills-enhancement-activit",
+            "title": "Midterm Performance Evaluation of the Workforce Improvement and Skills Enhancement Activity (WISE); Technical Assistance, Training Activities and Capacity Building",
+            "org_type": "Federal Government",
+            "org_title": "US Agency for International Development"
+        },
+        {
+            "metadata_modified": "2020-10-02T00:24:55.527310",
+            "organization": "fcc-gov",
+            "name": "fcc-active-and-pending-information-collections-under-the-paperwork-reduction-act",
+            "title": "FCC Active and Pending Information Collections under the Paperwork Reduction Act",
+            "org_type": "Federal Government",
+            "org_title": "Federal Communications Commission"
+        },
+        {
+            "metadata_modified": "2020-10-02T00:12:14.000722",
+            "organization": "dot-gov",
+            "name": "freight-transportation-system-condition-performance",
+            "title": "Freight Transportation System Condition & Performance",
+            "org_type": "Federal Government",
+            "org_title": "Department of Transportation"
+        },
+        {
+            "metadata_modified": "2020-10-02T00:12:13.966441",
+            "organization": "dot-gov",
+            "name": "regular-gasoline",
+            "title": "Fuel Prices - Regular Gasoline",
+            "org_type": "Federal Government",
+            "org_title": "Department of Transportation"
+        }]
+}

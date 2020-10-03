@@ -28,6 +28,9 @@ http.createServer(function (req: IncomingMessage, res: ServerResponse) {
         case "/cdo_data.json":
             res.end(getJsonData('test/data/test_cdo_data.json'));
             break;
+        case "/gov_data.json":
+            res.end(getJsonData('test/data/test_gov_data.json'));
+            break;
         default:
             res.end('{}');
             break;
