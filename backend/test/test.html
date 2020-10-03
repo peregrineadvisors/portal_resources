@@ -3,19 +3,27 @@
 
 <head>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="../dist/cdo_data.js"></script>
+    <script src="../dist/peregrineportal.js"></script>
 </head>
 
 <body>
-    This should be 'Cdo0_First':<div id="test"></div>
+    This should be 'Cdo0_First':<div id="test_cdo_data"></div>
+
+    Test data in gov_data:<div id="test_gov_data"></div>
 </body>
 
 <footer>
     <script>
         $().ready(async function () {
+            // Tests for cdo_data.ts
             let cd = await getCdoDatabase('http://localhost:8080/cdo_data.json');
             console.log(cd);
-            $('#test').text(cd[0].name.first);
+            $('#test_cdo_data').text(cd[0].name.first);
+
+            // Tests for gov_data.ts
+            let gov = await getRecentGov('http://localhost:8080/gov_data.json');
+            console.log(cd);
+            $('#test_gov_data').text(gov[0].metadata_modified);
         });
     </script>
 </footer>
