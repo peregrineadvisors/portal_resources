@@ -16,6 +16,7 @@ interface cdo {
         image: string;
         ocdo: string;
         data: string;
+        goverance?: string;
         website: string;
     },
     name: {
