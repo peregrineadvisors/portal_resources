@@ -4,10 +4,11 @@
     {
         "agency": {
             "name": "Department of Agriculture",
-            "abbrv": "NASA",
+            "abbrv": "USDA",
             "website": "https://www.usda.gov/",
             "ocdo": "https://www.usda.gov/topics/data",
             "data": "https://www.usda.gov/content/usda-open-data-catalog",
+            "governance": "https://www.usda.gov/sites/default/files/documents/usda-data-governance-board-charter.pdf",
             "image": "https://www.usda.gov/themes/usda/img/usda-symbol.svg"
         },
         "name": {
@@ -25,6 +26,7 @@
             "website": "https://www.commerce.gov/",
             "ocdo": "https://www.commerce.gov/data-and-reports/data",
             "data": "https://data.commerce.gov/",
+            "governance": "",
             "image": "https://www.commerce.gov/themes/commerce/assets/img/doc_logo.png"
         },
         "name": {
@@ -197,6 +199,7 @@
             "website": "http://www.state.gov/",
             "ocdo": "https://www.state.gov/developer/",
             "data": "",
+            "governance": "https://www.state.gov/wp-content/uploads/2020/06/EDC-Charter_05282020_vFINAL-508-1.pdf",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/U.S._Department_of_State_official_seal.svg/1280px-U.S._Department_of_State_official_seal.svg.png"
         },
         "name": {
@@ -227,8 +230,8 @@
         }
     },{
         "agency": {
-            "name": "Department of Treasury",
-            "abbrv": "",
+            "name": "Department of the Treasury",
+            "abbrv": "USDT",
             "website": "http://www.treasury.gov/Pages/default.aspx",
             "ocdo": "https://home.treasury.gov/data/treasury-open-data",
             "data": "",
@@ -412,6 +415,247 @@
         "contact": {
             "email": "",
             "linkedIn": "https://www.linkedin.com/in/emily-knickerbocker-55a02949"
+        }
+    },
+    
+    
+    {
+        "agency": {
+            "name": "Commodity Futures Trading Commission",
+            "abbrv": "CFTC",
+            "website": "https://www.cftc.gov/",
+            "ocdo": "https://www.cftc.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Commodity_Futures_Trading_Commission_seal.svg/1024px-Commodity_Futures_Trading_Commission_seal.svg.png"
+        },
+        "name": {
+            "first": "Srinivas",
+            "last": "Bangarbale"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/sbangarbale"
+        }
+    },{
+        "agency": {
+            "name": "Consumer Product Safety Commission",
+            "abbrv": "CPSC",
+            "website": "https://www.cpsc.gov/",
+            "ocdo": "https://www.cpsc.gov/es/Data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Seal_of_the_United_States_Consumer_Product_Safety_Commission.svg/1024px-Seal_of_the_United_States_Consumer_Product_Safety_Commission.svg.png"
+        },
+        "name": {
+            "first": "Jim",
+            "last": "Rolfes"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/jcrolfes/"
+        }
+    },{
+        "agency": {
+            "name": "Federal Communications Commission",
+            "abbrv": "FCC",
+            "website": "https://www.fcc.gov/",
+            "ocdo": "https://www.fcc.gov/reports-research/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/FCC_Seal_2020.svg/1024px-FCC_Seal_2020.svg.png"
+        },
+        "name": {
+            "first": "Steve",
+            "last": "Rosenberg"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/steve-rosenberg-25ba2a4/"
+        }
+    },{
+        "agency": {
+            "name": "Federal Deposit Insurance Corporation",
+            "abbrv": "FDIC",
+            "website": "",
+            "ocdo": "https://www.fdic.gov/open-government/index.html",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Seal_of_the_United_States_Federal_Deposit_Insurance_Corporation.svg/1024px-Seal_of_the_United_States_Federal_Deposit_Insurance_Corporation.svg.png"
+        },
+        "name": {
+            "first": "Jacques",
+            "last": "Vilar"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/jacques-vilar-a20a261"
+        }
+    },{
+        "agency": {
+            "name": "Federal Election Commission",
+            "abbrv": "FEC",
+            "website": "https://www.fec.gov/",
+            "ocdo": "https://catalog.data.gov/dataset/fec-api",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Seal_of_the_United_States_Federal_Election_Commission.svg/1024px-Seal_of_the_United_States_Federal_Election_Commission.svg.png"
+        },
+        "name": {
+            "first": "",
+            "last": ""
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Federal Energy Regulatory Commission",
+            "abbrv": "FERC",
+            "website": "https://www.ferc.gov/",
+            "ocdo": "https://www.ferc.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Seal_of_the_United_States_Federal_Energy_Regulatory_Commission.svg/1024px-Seal_of_the_United_States_Federal_Energy_Regulatory_Commission.svg.png"
+        },
+        "name": {
+            "first": "Kirsten",
+            "last": "Dalboe"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/kdalboe/"
+        }
+    },{
+        "agency": {
+            "name": "Federal Housing Finance Agency",
+            "abbrv": "FHFA",
+            "website": "http://www.fhfa.gov/",
+            "ocdo": "https://www.fhfa.gov/DataTools",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Seal_of_the_United_States_Federal_Housing_Finance_Agency.svg/1024px-Seal_of_the_United_States_Federal_Housing_Finance_Agency.svg.png"
+        },
+        "name": {
+            "first": "",
+            "last": ""
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Federal Maritime Commission",
+            "abbrv": "FMC",
+            "website": "https://www.fmc.gov/",
+            "ocdo": "https://www.fmc.gov/databases-services/",
+            "data": "",
+            "image": "https://www.fmc.gov/wp-content/themes/encompass/images/layout/logo.png"
+        },
+        "name": {
+            "first": "",
+            "last": ""
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Federal Reserve System",
+            "abbrv": "The Fed",
+            "website": "https://www.federalreserve.gov/",
+            "ocdo": "https://www.federalreserve.gov/data.htm",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_Federal_Reserve_System.svg/1024px-Seal_of_the_United_States_Federal_Reserve_System.svg.png"
+        },
+        "name": {
+            "first": "Michael",
+            "last": "Kraemer"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/michael-kraemer-8803ab22/"
+        }
+    },{
+        "agency": {
+            "name": "Federal Trade Commission",
+            "abbrv": "FTC",
+            "website": "https://www.ftc.gov/",
+            "ocdo": "https://www.ftc.gov/site-information/open-government",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/1024px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png"
+        },
+        "name": {
+            "first": "Raghav",
+            "last": "Vajjhala"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/rvajjhala/"
+        }
+    },{
+        "agency": {
+            "name": "Postal Regulatory Commission",
+            "abbrv": "PRC",
+            "website": "https://www.prc.gov/",
+            "ocdo": "https://www.prc.gov/reports",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/U.S._Postal_Regulatory_Commission_Seal.jpg/800px-U.S._Postal_Regulatory_Commission_Seal.jpg"
+        },
+        "name": {
+            "first": "",
+            "last": ""
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": ""
+        }
+    },{
+        "agency": {
+            "name": "Securities and Exchange Commission",
+            "abbrv": "SEC",
+            "website": "https://www.sec.gov/",
+            "ocdo": "https://www.sec.gov/data",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg/1024px-Seal_of_the_United_States_Securities_and_Exchange_Commission.svg.png"
+        },
+        "name": {
+            "first": "Austin",
+            "last": "Gerig"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/austin-gerig-25b0a65"
+        }
+    },{
+        "agency": {
+            "name": "Surface Transportation Board",
+            "abbrv": "STB",
+            "website": "https://www.stb.gov/",
+            "ocdo": "https://prod.stb.gov/reports-data/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/US-SurfaceTransportationBoard-Seal.svg/1024px-US-SurfaceTransportationBoard-Seal.svg.png"
+        },
+        "name": {
+            "first": "Rachel",
+            "last": "Campbell"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/rachel-campbell-b13044142"
+        }
+    },{
+        "agency": {
+            "name": "Consumer Finance Protection Bureau",
+            "abbrv": "CFPB",
+            "website": "http://www.consumerfinance.gov/",
+            "ocdo": "https://www.consumerfinance.gov/data-research/",
+            "data": "",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/CFPB_seal.png"
+        },
+        "name": {
+            "first": "Ren",
+            "last": "Essene"
+        },
+        "contact": {
+            "email": "",
+            "linkedIn": "https://www.linkedin.com/in/ren-essene-88b18419/"
         }
     }]
 }
