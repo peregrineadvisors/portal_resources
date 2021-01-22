@@ -95,6 +95,40 @@ function getRecentGov(database_url) {
 }
 ;
 /****************************************************************************
+ * @file news_parser.ts
+ *
+ * This file is responsible for detailing how to load and parse a news feed
+ ****************************************************************************
+ * Copyright (c): 2021 Peregrine Advisors
+ ****************************************************************************/
+/**
+ * Interface for loading data from recent aggregated news results
+ */
+// interface newsFeed {
+//     version: string;
+//     title: string;
+//     home_page_url: string;
+//     description: string;
+//     items: newsItem[];
+// }
+function getNewsFeed(news_feed_url) {
+    return __awaiter(this, void 0, void 0, function () {
+        var data_json, articleList;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, fetch(news_feed_url)
+                        .then(function (response) { return response.json(); })];
+                case 1:
+                    data_json = _a.sent();
+                    console.log(data_json);
+                    articleList = data_json.items;
+                    return [2 /*return*/, articleList];
+            }
+        });
+    });
+}
+;
+/****************************************************************************
  * @file table.ts
  *
  * This file defines the Table class
