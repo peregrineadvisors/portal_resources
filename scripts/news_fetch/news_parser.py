@@ -28,7 +28,8 @@ class FedDataStrategyNews(Parser):
             container = 'li.h-entry',
             title     = 'h2.p-name',
             link      = 'a',
-            descrip   = 'h2.p-name'
+            descrip   = 'h2.p-name',
+            pubdate   = 'div.dt-published'
         )
 
 
@@ -75,7 +76,8 @@ class DataGovBlog(Parser):
             container = 'article.post',
             title     = 'h2.entry-title a',
             link      = 'h2 a',
-            descrip   = 'div.entry-summary p'
+            descrip   = 'div.entry-summary p',
+            pubdate   = 'time.published'
         )
 
 
@@ -124,7 +126,8 @@ class NextGovDataNews(Parser):
             container = 'div.river-item-inner',
             title     = 'h2.river-item-hed a',
             link      = 'h2.river-item-hed a',
-            descrip   = 'h3.river-item-dek'
+            descrip   = 'h3.river-item-dek',
+            pubdate   = 'li.story-meta-data time'
         )
 
 
