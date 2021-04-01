@@ -31,8 +31,11 @@ http.createServer(function (req: IncomingMessage, res: ServerResponse) {
         case "/gov_data.json":
             res.end(getJsonData('test/data/test_gov_data.json'));
             break;
+        case "/news_feed.json":
+            res.end(getJsonData('../scripts/news_fetch/feed_results.json'));
+            break;
         default:
-            res.end('{}');
+            res.end('{unknown url}');
             break;
     }
 }).listen(8080);
