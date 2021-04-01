@@ -2,7 +2,7 @@
 
 # Import the site parsers and RSS feed generators
 from feedgen.parsers import Parser, TagConfig
-from feedgen.writers import Rss
+from feedgen.writers import RssFeed, JsonFeed
 
 class FedDataStrategyNews(Parser):
     """
@@ -103,7 +103,7 @@ class DataGovBlog(Parser):
 
 class NextGovDataNews(Parser):
     """
-    Subclass of the Parser class that specifically searches on 'data.gov'
+    Subclass of the Parser class that specifically searches on 'nextgov.com'
     """
 
     def __init__(self, **kwargs):
@@ -111,8 +111,8 @@ class NextGovDataNews(Parser):
         """
         super().__init__(**kwargs)
 
-        self.name = 'Data Gov'
-        self.type = 'datagov'
+        self.name = 'NextGov'
+        self.type = 'nextgov'
 
         # Define the URL and query parameters
         self.url['root'] = 'https://www.nextgov.com/'
@@ -149,18 +149,45 @@ class NextGovDataNews(Parser):
 
         return result
 
+class FedScoopNews(Parser):
+    """
+    Subclass of the Parser class that specifically searches on 'fedscoop.com'
+    """
+
+    def __init__(self, **kwargs):
+        """Initialize the search parser
+        """
+        super().__init__(**kwargs)
+
+        self.name = 'FedScoop'
+        self.type = 'fedscoop'
+
+        # Define the URL and query parameters
+        self.url['base'] = 'https://fedscoop.com/'
+        self.url['params'] = {}
+
+        # Tags to be parsed
+        self.tag_config = TagConfig(
+            container = 'article.article-thumb',
+            title     = 'a.article-thumb__title h3',
+            link      = 'a.article-thumb__title',
+            descrip   = 'div.article-thumb__short p'
+        )
+
+
 # Main function
 if __name__ == '__main__':
     res = [
         *NextGovDataNews().parse_html(), 
+        *FedScoopNews().parse_html(),
         *FedDataStrategyNews().parse_html(), 
         *DataGovBlog().parse_html()
     ]
 
     # Write to RSS
-    rss = Rss(title='Peregrine Advisors Federal Data News',
+    rss = JsonFeed(title='Peregrine Advisors Federal Data News',
               link='https://www.peregrineadvisors.com',
               descrip='Federal data news aggregated from a variety of news outlets.')
 
-    rss.write(res, 'feed_results.xml')
+    rss.write(res, 'feed_results.json')
     
