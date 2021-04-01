@@ -10,6 +10,8 @@
     This should be 'Cdo0_First':<div id="test_cdo_data"></div>
 
     Test data in gov_data:<div id="test_gov_data"></div>
+ 
+    Test news_feed: <div id="test_news_feed"></div>
 </body>
 
 <footer>
@@ -24,8 +26,12 @@
             let gov = await getRecentGov('http://localhost:8080/gov_data.json');
             console.log(cd);
             $('#test_gov_data').text(gov[0].metadata_modified);
+
+            // Tests for gov_data.ts
+            let news = await getNewsFeed('http://localhost:8080/news_feed.json');
+            console.log(cd);
+            $('#test_news_feed').text(news[0].title);
         });
     </script>
 </footer>
-
 </html>
