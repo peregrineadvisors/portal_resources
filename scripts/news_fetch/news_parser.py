@@ -2,6 +2,7 @@
 
 # Import the site parsers and RSS feed generators
 from feedgen.parsers import Parser, TagConfig
+from feedgen.parsers import CSSInnerText, CSSAttribute
 from feedgen.writers import RssFeed, JsonFeed
 
 class FedDataStrategyNews(Parser):
@@ -25,11 +26,13 @@ class FedDataStrategyNews(Parser):
 
         # Tags to be parsed
         self.tag_config = TagConfig(
-            container = 'li.h-entry',
-            title     = 'h2.p-name',
-            link      = 'a',
-            descrip   = 'h2.p-name',
-            pubdate   = 'div.dt-published'
+            container = CSSInnerText('li.h-entry'),
+            title     = CSSInnerText('h2.p-name'),
+            link      = CSSAttribute('a', 'href'),
+            descrip   = CSSInnerText('h2.p-name'),
+            extras    = {
+                'pubDate': CSSInnerText('div.dt-published')
+            }
         )
 
 
@@ -73,11 +76,13 @@ class DataGovBlog(Parser):
 
         # Tags to be parsed
         self.tag_config = TagConfig(
-            container = 'article.post',
-            title     = 'h2.entry-title a',
-            link      = 'h2 a',
-            descrip   = 'div.entry-summary p',
-            pubdate   = 'time.published'
+            container = CSSInnerText('article.post'),
+            title     = CSSInnerText('h2.entry-title a'),
+            link      = CSSAttribute('h2 a', 'href'),
+            descrip   = CSSInnerText('div.entry-summary p'),
+            extras    = {
+                'pubDate': CSSAttribute('time.published', 'datetime')
+            }
         )
 
 
@@ -123,11 +128,13 @@ class NextGovDataNews(Parser):
 
         # Tags to be parsed
         self.tag_config = TagConfig(
-            container = 'div.river-item-inner',
-            title     = 'h2.river-item-hed a',
-            link      = 'h2.river-item-hed a',
-            descrip   = 'h3.river-item-dek',
-            pubdate   = 'li.story-meta-data time'
+            container = CSSInnerText('div.river-item-inner'),
+            title     = CSSInnerText('h2.river-item-hed a'),
+            link      = CSSAttribute('h2.river-item-hed a', 'href'),
+            descrip   = CSSInnerText('h3.river-item-dek'),
+            extras    = {
+                'pubDate': CSSAttribute('li.story-meta-date time', 'datetime')
+            }
         )
 
 
@@ -171,10 +178,10 @@ class FedScoopNews(Parser):
 
         # Tags to be parsed
         self.tag_config = TagConfig(
-            container = 'article.article-thumb',
-            title     = 'a.article-thumb__title h3',
-            link      = 'a.article-thumb__title',
-            descrip   = 'div.article-thumb__short p'
+            container = CSSInnerText('article.article-thumb'),
+            title     = CSSInnerText('a.article-thumb__title h3'),
+            link      = CSSAttribute('a.article-thumb__title', 'href'),
+            descrip   = CSSInnerText('div.article-thumb__short p')
         )
 
 
@@ -188,9 +195,9 @@ if __name__ == '__main__':
     ]
 
     # Write to RSS
-    rss = JsonFeed(title='Peregrine Advisors Federal Data News',
+    json_feed = JsonFeed(title='Peregrine Advisors Federal Data News',
               link='https://www.peregrineadvisors.com',
               descrip='Federal data news aggregated from a variety of news outlets.')
 
-    rss.write(res, 'feed_results.json')
+    json_feed.write(res, 'feed_results.json')
     
